@@ -1,3 +1,3 @@
-#uvm_ahb5
-This is UVM based VIP for AHB5 protocol specification.
+#AHB5 VIP  
+This is UVM based VIP for ARM AHB5.
 

@@ -1,0 +1,2 @@
+typedef enum bit[1:0] {IDLE, BUSY, NONSEQ, SEQ} transfer_t;
+

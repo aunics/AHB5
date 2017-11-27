@@ -1,0 +1,14 @@
+class ahb_txn extends uvm_sequence_item;
+   rand transfer_t trans_type[];
+
+   rand bit [31:0] address[];
+
+   rand burst_t burst;
+
+   rand write_t rw;
+
+   rand bit [31:0] write_data[];
+
+
+
+endclass // ahb_txn

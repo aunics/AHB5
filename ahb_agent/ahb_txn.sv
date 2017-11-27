@@ -1,4 +1,11 @@
 class ahb_txn extends uvm_sequence_item;
+
+   `uvm_object_utils(ahb_txn)
+
+   function new(string name = "ahb_txn");
+      super.new(name);
+   endfunction // new
+   
    rand transfer_t trans_type[];
 
    rand bit [ADDRESS_WIDTH-1:0] address[];
